@@ -79,7 +79,14 @@
 @keyframes toAtive{
     from{
         top: 100%;
-        opacity: 0;
-        
+        opacity: 0;       
     }
+}
+
+.item.ativo .titulo{
+    animation: toAtive 0.5s ease-in-out 1;
+}
+
+.item.item.ativo img.fruta{
+    animation: toAtive 0.8s ease-in-out 1;
 }
